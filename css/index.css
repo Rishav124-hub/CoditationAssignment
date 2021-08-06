@@ -1,0 +1,55 @@
+.main-container{
+    background-color: #091335cc;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+*{
+    margin: 0%;
+}
+.sub-container{
+    width: 40%;
+}
+h1{
+    color: aqua;
+    text-align: center;
+    padding-top: 20px;
+}
+.input-container{
+    color:aqua;
+    margin: 7vh 0;
+    text-align: center;
+}
+label{
+    font-size: x-large;
+}
+.input-field{
+    font-size: x-large;
+    margin-top: 20px;
+}
+.btn{
+    margin-top: 15px;
+    width: 100px;
+}
+.result-container{
+    width: 100%;
+    min-height: 50vh;
+    margin: 7vh 0;
+    background-color: aqua;
+    display: none;
+}
+#dInput{
+    padding: 10px 50px;
+}
+#dOutput{
+    padding: 10px 50px;
+}
+.col{
+    margin: 20px;
+}
+.row{
+    margin: 10px;
+}
